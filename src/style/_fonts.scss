@@ -1,0 +1,23 @@
+// @font-face {
+// 	font-family: "outrunfuture"; /* имя шрифта для CSS правил */
+// 	src: local("future.outrun-future"), /* проверяем наличие шрифта в ОС пользователя */
+// 	url("../fonts/future.outrun-future.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+// }
+
+@font-face {
+	font-family: "proximanova-regular"; /* имя шрифта для CSS правил */
+	src: local("proximanova-regular"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/proximanova-regular.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "proximanova-light"; /* имя шрифта для CSS правил */
+	src: local("proximanova-light"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/proximanova-light.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "proximanova-bold"; /* имя шрифта для CSS правил */
+	src: local("proximanova-bold"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/proximanova-bold.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}

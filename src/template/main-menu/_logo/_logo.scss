@@ -1,0 +1,15 @@
+.logo {
+	float: left;
+	display: block;
+	text-align: left;
+	@media screen and (max-width: 768px) {
+   padding-left: 15px;
+  }
+	.logo__link {
+		display: block;
+		.logo__img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

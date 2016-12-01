@@ -1,0 +1,33 @@
+/*
+* Third Party
+*/
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
+
+
+/*
+* Custom
+*/
+@import "_reset.scss";
+@import "_grids.scss";
+@import "_fonts.scss";
+
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		text-decoration: none;
+	}
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.wrapper {
+	position: relative;
+	height: 10000px;
+	background-color: #000;
+}
+@import "../template/main-menu/_main-menu.scss";
+@import "../template/header/_header.scss";
